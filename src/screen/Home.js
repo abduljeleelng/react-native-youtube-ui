@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {View,Text,Image,TouchableOpacity,FlatList} from 'react-native';
 import {global} from '../styles';
-import {Image} from '../asset/getImage';
+import {getImage} from '../asset';
 
 
 export default class Home extends Component {
@@ -9,12 +9,16 @@ export default class Home extends Component {
         return (
             <View style={global.container}>
                 <View style={global.topMenu}>
-                    <Image source={Image('logo')} style={global.navLogo} />
+                    <Image 
+                    source={getImage('logo')}
+                    //source={require('../asset/images/logo.png')}
+                    style={global.navLogo} 
+                    />
                     <View style={global.nav}>
-                        <TouchableOpacity>
+                        <TouchableOpacity style={global.navItem}>
                             <Text>Searc</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity>
+                        <TouchableOpacity style={global.navItem}>
                             <Text>Profile</Text>
                         </TouchableOpacity>
                     </View>
