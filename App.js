@@ -13,7 +13,7 @@ import {Home} from './src'
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
       <Home />
     </>
   );

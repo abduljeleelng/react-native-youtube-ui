@@ -1,6 +1,5 @@
 import React from 'react';
 import {FlatList} from 'react-native';
-import {global} from '../styles';
 import {Card} from '.'
 
 export default function CardList({data}) {

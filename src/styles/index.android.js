@@ -30,7 +30,7 @@ export const global = StyleSheet.create({
         zIndex:-5
     },
     videoImage:{
-        marginVertical:5,
+        marginVertical:2,
         aspectRatio:1,
         backgroundColor:'rgba(0,0,0,0.2)',
     },
@@ -42,7 +42,17 @@ export const global = StyleSheet.create({
         fontSize:FontSize.medium,
         color:Colors.light,
     },
-    videoDescription:{
+    author:{
+        width: 50, 
+        height: 50, 
+        borderRadius: 25 
+    },
+    authorName:{
+        fontSize:FontSize.medium,
+        color:Colors.black,
+        paddingHorizontal:10
+    },
+    videoDetails:{
 
     },
     navigationBar:{
