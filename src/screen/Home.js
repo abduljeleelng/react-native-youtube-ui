@@ -9,7 +9,26 @@ export default class Home extends Component {
         return (
             <View style={global.container}>
                 <View style={global.topMenu}>
-                    <Image />
+                    <Image source={Image('logo')} style={global.navLogo} />
+                    <View style={global.nav}>
+                        <TouchableOpacity>
+                            <Text>Searc</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                            <Text>Profile</Text>
+                        </TouchableOpacity>
+                    </View>
+                </View>
+                <View style={global.videoContent}>
+                    <Text>
+                        Video Card here
+                    </Text>
+                </View>
+                <View style={global.navigationBar}>
+                    <TouchableOpacity style={global.navItems}>
+                        <Text>Home</Text>
+                        <Text style={global.navTitle}> Home </Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         )

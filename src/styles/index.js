@@ -19,7 +19,8 @@ export const global = StyleSheet.create({
         flexDirection:'row',
     },
     navLogo:{
-
+        width:98,
+        height:22
     },
     navItem :{
         marginLeft:20,
