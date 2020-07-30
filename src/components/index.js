@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import Card from './Card'
+import Card from './Card';
+import CardList from './CardList'
 
-export {Header,Footer,Card}
+export {Header,Footer,Card,CardList}

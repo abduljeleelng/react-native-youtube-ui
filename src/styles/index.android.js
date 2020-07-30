@@ -26,8 +26,8 @@ export const global = StyleSheet.create({
         marginLeft:20,
     },
     videoContent:{
-        flex:1,
         paddingHorizontal:15,
+        zIndex:-5
     },
     videoImage:{
         marginVertical:5,

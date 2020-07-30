@@ -1,7 +1,6 @@
 import React from 'react';
 import {View,Image,TouchableOpacity} from 'react-native';
 import IconM from 'react-native-vector-icons/MaterialIcons';
-import IconA from 'react-native-vector-icons/Feather';
 import {global} from '../styles';
 import {getImage} from '../asset';
 
