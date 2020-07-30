@@ -1,5 +1,7 @@
 import React from 'react';
-import {View,Text,Image,TouchableOpacity} from 'react-native';
+import {View,Image,TouchableOpacity} from 'react-native';
+import IconM from 'react-native-vector-icons/MaterialIcons';
+import IconA from 'react-native-vector-icons/Feather';
 import {global} from '../styles';
 import {getImage} from '../asset';
 
@@ -9,10 +11,10 @@ export default function Header() {
             <Image source={getImage('logo')} style={global.navLogo} />
             <View style={global.nav}>
                 <TouchableOpacity style={global.navItem}>
-                    <Text>Searc</Text>
+                    <IconM name="search" size={25}  />
                 </TouchableOpacity>
                 <TouchableOpacity style={global.navItem}>
-                    <Text>Profile</Text>
+                    <IconM name="account-circle" size={25}  />
                 </TouchableOpacity>
             </View>
         </View>

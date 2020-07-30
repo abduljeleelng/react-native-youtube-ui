@@ -19,7 +19,7 @@ export const global = StyleSheet.create({
         flexDirection:'row',
     },
     navLogo:{
-        width:98,
+        width:100,
         height:22
     },
     navItem :{
@@ -27,6 +27,23 @@ export const global = StyleSheet.create({
     },
     videoContent:{
         flex:1,
+        paddingHorizontal:15,
+    },
+    videoImage:{
+        marginVertical:5,
+        aspectRatio:1,
+        backgroundColor:'rgba(0,0,0,0.2)',
+    },
+    videoDescription:{
+        flexDirection:'row',
+        paddingTop:15,
+    },
+    videoTitle:{
+        fontSize:FontSize.medium,
+        color:Colors.light,
+    },
+    videoDescription:{
+
     },
     navigationBar:{
         height:60,
