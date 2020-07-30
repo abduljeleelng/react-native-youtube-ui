@@ -1,5 +1,4 @@
 import React, { Component,Fragment } from 'react';
-import {global} from '../styles';
 import { Header,Card, Footer, } from '../components';
 
 export default class Home extends Component {
