@@ -11,7 +11,7 @@ export default function CardList({data}) {
         progressViewOffset={10}
         refreshing={true}
         //flashScrollIndicators
-        horizontal={true}
+        //horizontal={true}
         data={data}
         keyExtractor={(data)=>data.id.toString()}
         renderItem={data=><Card data={data} />}
